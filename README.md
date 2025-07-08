@@ -8,9 +8,9 @@ INFT (Intelligent NFT) is a next-generation Web3 protocol that transforms static
   there is an urgent need for **on-chain credit systems**.
 * Without credit scoring, DeFi lending either requires overcollateralization or remains inaccessible to many users.
 
-## Emerging Solutions
-* **3Jane**: Partners with banks to offer undercollateralized loans using traditional credit scores.
-* **Cred Protocol**: Assigns decentralized credit scores based on wallet transaction history.
+## Existing Solution
+* **[3Jane](https://www.3jane.xyz/)**: Partners with banks to offer undercollateralized loans using traditional credit scores.
+* **[Cred Protocol](https://www.credprotocol.com/)**: Assigns decentralized credit scores based on wallet transaction history.
 * These are early examples of bridging **Web2 credit logic** into the **Web3 ecosystem**.
 
 ## Solution
@@ -20,6 +20,8 @@ INFT (Intelligent NFT) is a next-generation Web3 protocol that transforms static
   * **AI-monitored tasks and engagement** (e.g., quiz completion, platform usage)
 * Credit tiers are automatically assigned and updated via **smart contracts**.
 * APIs enable **DeFi protocols** to access encrypted, real-time, and verifiable credit profiles.
+
+## How to work
 
 ## Key Benefits of INFT
 
