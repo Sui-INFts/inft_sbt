@@ -1,6 +1,13 @@
 # Overview
 INFT (Intelligent NFT) is a next-generation Web3 protocol that transforms static NFTs into intelligent and interactive assets by integrating AI and blockchain. Unlike traditional NFTs, INFTs continuously learn, interact, and evolve based on user engagement. These NFTs go beyond digital collectibles and function as digital identities, interaction records, credit profiles, and more.
 
+## Background
+As of mid-2025, the cryptocurrency industry is rapidly evolving and becoming more institutionalized:
+- **Circle IPO**: Circle, the issuer of USDC, became the first crypto-native company to go public on NASDAQ in June 2025. Its stock surged over 70–80%, signaling strong investor confidence.
+- **Regulatory Progress**: Approvals for Ethereum, Solana, and Ripple ETFs are increasingly likely, and stablecoin regulations are advancing rapidly.
+- **Web2 × Web3 Convergence**: Stablecoins like USDC and USDT are being adopted in real-world finance (e.g., real estate, vehicles), leading to a demand for reliable on-chain identity and credit systems.
+- **Infrastructure Boom**: Exchanges like Coinbase are offering developer SDKs for fiat on/off-ramps, and DeFi services are focusing on making crypto lending more accessible and regulated.
+
 ## Problem
 * Traditional finance uses KYC, employment, income, and documentation to assess creditworthiness.
 * DeFi is **pseudonymous** and **permissionless**, making it difficult to assess trust and credit.
