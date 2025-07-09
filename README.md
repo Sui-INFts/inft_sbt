@@ -29,6 +29,36 @@ As of mid-2025, the cryptocurrency industry is rapidly evolving and becoming mor
 * APIs enable **DeFi protocols** to access encrypted, real-time, and verifiable credit profiles.
 
 ## How to work
+![image](https://github.com/user-attachments/assets/9f519cad-b293-42b5-ac78-06c91f691d6c)
+
+### Flow Summary
+
+- **User Interaction**
+  - The user interacts with the platform or an AI model (e.g., iO model).
+  - This interaction can include various activities like chatting, task completion, or payments.
+
+- **Relayer Generates Interaction Score**
+  - The relayer analyzes the user’s activity and produces key metrics such as credit scores and behavioral history.
+
+- **Data Stored in Metadata**
+  - The generated credit score and other status information are embedded into the INFT’s metadata.
+  - Metadata may include:
+    - Interaction count
+    - Latest credit score
+    - Quest or task completion history
+    - Evolution state (Level, Stage, etc.)
+    - Timestamp and activity logs
+
+- **Metadata Encryption and Storage**
+  - Sensitive information is encrypted using the Seal protocol and securely stored in Walrus (decentralized storage).
+
+- **Reflected on Smart Contract**
+  - Updating the metadata automatically updates the INFT state, which is recorded on-chain via smart contracts.
+  - In essence, a change in metadata = a change in the INFT.
+
+- **Results**
+  - Users can view their real-time credit tier, evolution status, and more through a dashboard.
+  - External services (e.g., DeFi lending platforms) can verify and utilize the INFT status via API access.
 
 ## Key Benefits of INFT
 
