@@ -60,6 +60,52 @@ As of mid-2025, the cryptocurrency industry is rapidly evolving and becoming mor
   - Users can view their real-time credit tier, evolution status, and more through a dashboard.
   - External services (e.g., DeFi lending platforms) can verify and utilize the INFT status via API access.
 
+## Credit Rating System Overview
+
+The INFT credit rating system is designed to generate trustworthy credit scores based on users’ on-chain activity and engagement within the platform. Without requiring centralized KYC (Know Your Customer) processes, the system analyzes digital wallet behavior and platform interactions to assign automated credit scores and tiers. This enhances access to financial services while maintaining a secure and transparent evaluation mechanism.
+
+## How Is the Credit Score Generated?
+
+The INFT protocol periodically collects on-chain transaction data from the Sui blockchain. For example, it monitors how frequently a user sends USDC, to which addresses, how much, and how quickly loans are repaid. This is combined with engagement data such as quizzes, daily check-ins, and referral activities performed on the INFT platform. Additionally, credit-specific SBTs (Soulbound Tokens) are minted to track loan agreements and repayment history.
+
+All of this data is linked to a user's wallet address and encrypted to prevent unauthorized identification or manipulation. The data is analyzed in real time, and scores are updated daily or according to a user-defined schedule.
+
+## How Is the iO AI Model Utilized?
+The **iO AI model** is the core engine that processes and analyzes all collected data to calculate a final credit score. It does this by evaluating three main categories:
+
+1. **Transaction Behavior Analysis (60%)**
+
+   * Measures frequency of payments, transaction volume, and repayment timeliness.
+   * Users with stable, consistent financial behavior receive higher scores.
+
+2. **Engagement Behavior Analysis (20%)**
+
+   * Awards points for actions such as quiz participation, login streaks, and referrals.
+   * Encourages the development of healthy financial habits.
+
+3. **Credit History Analysis (20%)**
+
+   * Tracks repayment success and delays via credit-specific SBTs.
+   * This score reflects the user’s trustworthiness based on past borrowing behavior.
+
+All analysis results are irreversibly encrypted and stored in Walrus storage.
+The result is then referenced in the metadata URI of the user’s INFT SBT.
+As the credit score and tier update, the associated SBT metadata is also automatically updated and reflected on-chain.
+
+### Credit Score Calculation Formula
+
+$$
+\text{Credit Score} = (0.6 \times T_s) + (0.2 \times E_s) + (0.2 \times C_s)
+$$
+
+Where:
+* $T_s$ = Transaction Score (0–600 points)
+* $E_s$ = Engagement Score (0–200 points)
+* $C_s$ = Credit History Score (0–200 points)
+
+**Total Range: 0–1000**
+
+
 ## Key Benefits of INFT
 
 | Users (B2C)                             | Developers & Protocols (B2B)                         |
