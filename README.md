@@ -73,6 +73,7 @@ The INFT protocol periodically collects on-chain transaction data from the Sui b
 All of this data is linked to a user's wallet address and encrypted to prevent unauthorized identification or manipulation. The data is analyzed in real time, and scores are updated daily or according to a user-defined schedule.
 
 ## How Is the iO AI Model Utilized?
+| [Code #1](https://github.com/Sui-INFts/infts_client/tree/main/app/io) | [Code #2](https://github.com/Sui-INFts/infts_client/tree/main/app/api/chat) | [Code #3](https://github.com/Sui-INFts/infts_client/tree/main/hooks)
 The **iO AI model** is the core engine that processes and analyzes all collected data to calculate a final credit score. It does this by evaluating three main categories:
 
 1. **Transaction Behavior Analysis (60%)**
