@@ -74,16 +74,16 @@ All of this data is linked to a user's wallet address and encrypted to prevent u
 
 > [Code #2](https://github.com/Sui-INFts/infts_client/tree/main/app/api/chat) | app/api/chat/route.ts 
 
-- This is a Next.js App Router API route that handles server-side requests to the [IO Intelligence API](https://api.intelligence.io.solutions/api/v1/chat/completions), serving as the backend for chat functionality.
+This is a Next.js App Router API route that handles server-side requests to the [IO Intelligence API](https://api.intelligence.io.solutions/api/v1/chat/completions), serving as the backend for chat functionality.
 
 **Key Functions:**
 1. Receives POST Requests:
-  - Accepts JSON payload with message (user input), instructions (system prompt for iNFT behavior), and chatHistory (previous messages for context).
+    - Accepts JSON payload with message (user input), instructions (system prompt for iNFT behavior), and chatHistory (previous messages for context).
 2. Communicates with IO Intelligence API
 
 > [Code #3](https://github.com/Sui-INFts/infts_client/tree/main/hooks) | hooks/useIo.ts Breakdown
 
-- A client-side Next hook that manages the chat interaction state and communicates with the /api/chat route, integrating with Io Interaction Page for the iNFT chat UI.
+A client-side Next hook that manages the chat interaction state and communicates with the /api/chat route, integrating with Io Interaction Page for the iNFT chat UI.
 1. Manages State
 2. Handles Chat Interactions
 
