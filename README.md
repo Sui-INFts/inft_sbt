@@ -34,7 +34,6 @@ As of mid-2025, the cryptocurrency industry is rapidly evolving and becoming mor
 ![image](https://github.com/user-attachments/assets/9f519cad-b293-42b5-ac78-06c91f691d6c)
 
 ### Flow Summary
-
 - **User Interaction**
   - The user interacts with the platform or an AI model (e.g., iO model).
   - This interaction can include various activities like chatting, task completion, or payments.
@@ -63,11 +62,9 @@ As of mid-2025, the cryptocurrency industry is rapidly evolving and becoming mor
   - External services (e.g., DeFi lending platforms) can verify and utilize the INFT status via API access.
 
 ## Credit Rating System Overview
-
 The INFT credit rating system is designed to generate trustworthy credit scores based on users’ on-chain activity and engagement within the platform. Without requiring centralized KYC (Know Your Customer) processes, the system analyzes digital wallet behavior and platform interactions to assign automated credit scores and tiers. This enhances access to financial services while maintaining a secure and transparent evaluation mechanism.
 
 ## How Is the Credit Score Generated?
-
 The INFT protocol periodically collects on-chain transaction data from the Sui blockchain. For example, it monitors how frequently a user sends USDC, to which addresses, how much, and how quickly loans are repaid. This is combined with engagement data such as quizzes, daily check-ins, and referral activities performed on the INFT platform. Additionally, credit-specific SBTs (Soulbound Tokens) are minted to track loan agreements and repayment history.
 
 All of this data is linked to a user's wallet address and encrypted to prevent unauthorized identification or manipulation. The data is analyzed in real time, and scores are updated daily or according to a user-defined schedule.
@@ -107,8 +104,7 @@ Where:
 * $E_s$ = Engagement Score (0–200 points)
 * $C_s$ = Credit History Score (0–200 points)
 
-**Total Range: 0–1000**
-
+> **Total Range: 0–1000**
 
 ## Key Benefits of INFT
 
@@ -120,16 +116,14 @@ Where:
 | Maintain ownership and control          | Reduce risk with dynamic credit insights             |
 
 ## Why Now?
-
 * **June 2025**: Circle became the first crypto-native IPO on NASDAQ (↑70–80% stock growth).
 * **ETFs** for ETH, SOL, XRP are nearing approval in the U.S.
 * **Stablecoin legislation** is progressing globally.
 * **DeFi is maturing**, but needs **identity and trust frameworks** to grow.
 * INFT offers that missing **on-chain identity + credit infrastructure** for the next phase of crypto adoption.
 
-INFT SBT Smart Contract
-
--Mint INFT SBT (Primary Profile)
--Mint Credit-Specific INFT SBT
--Update Credit Score
--Query Credit Tier
+**INFT SBT Smart Contract**
+- Mint INFT SBT (Primary Profile)
+- Mint Credit-Specific INFT SBT
+- Update Credit Score
+- Query Credit Tier
