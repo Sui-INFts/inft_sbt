@@ -1,7 +1,7 @@
 # Overview
 INFT (Intelligent NFT) is a next-generation Web3 protocol that transforms static NFTs into intelligent and interactive assets by integrating AI and blockchain. Unlike traditional NFTs, INFTs continuously learn, interact, and evolve based on user engagement. These NFTs go beyond digital collectibles and function as digital identities, interaction records, credit profiles, and more.
 
-#### [Demo](https://www.infts.xyz/) | [Pitchdeck](https://www.figma.com/deck/WW9MfEyJ1nFPlyKZBWvTNM) | [Demovideo]() | [iO AI Model](https://github.com/Sui-INFts/inft_sbt/blob/main/README.md#how-is-the-io-ai-model-utilized)
+#### [Demo](https://www.infts.xyz/) | [Pitchdeck](https://www.figma.com/deck/WW9MfEyJ1nFPlyKZBWvTNM) | [Demovideo](https://youtu.be/GWz6CVm6D6w) | [iO AI Model](https://github.com/Sui-INFts/inft_sbt/blob/main/README.md#how-is-the-io-ai-model-utilized)
 
 ## Background
 As of mid-2025, the cryptocurrency industry is rapidly evolving and becoming more institutionalized:
